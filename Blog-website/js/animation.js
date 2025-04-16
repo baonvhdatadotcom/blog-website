@@ -412,7 +412,7 @@ function initFooterLinkAnimations() {
         
         link.addEventListener('mouseleave', () => {
             link.style.transform = 'translateY(0)';
-            link.style.color = 'var(--text-color)';
+            link.style.color = 'var(--white-color)';
         });
     });
 }
